@@ -1,0 +1,61 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "hii", "hyy" , "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you!", "Hi there, how can I help you?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["bye", "See you later", "goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :( {Enter quit to go out}", "Talk to you later {Enter quit to exit}", "Goodbye! {Press quit to exit}"],
+         "context_set": ""
+        },
+	{"tag": "health",
+         "patterns": ["how are u?", "how u doing?", "how is ur health?"],
+         "responses": ["Im good, how u doing?", "im great!! how about u?"],
+         "context_set": ""
+        },
+        {"tag": "study",
+         "patterns": ["where did you study?", "tell me about Jitesh's education", "tell me about Jitesh", "education?"],
+         "responses": ["Jitesh studies MSC.Data Science and computing in SSSIHL ", "He studied BCA and is studying MSc. in Data science"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "who made u?" ,"who is ur maker?"],
+         "responses": ["My name is Rawbot because some guy named Rawat made me....haha", "I'm Rawbot, my maker is Jitesh Rawat"],
+         "context_set": ""
+        },
+        {"tag": "joke",
+         "patterns": ["tell me a joke ", "Make me laugh ", "Please tell me something funny.."],
+         "responses": ["ok here is a joke, I was horrified when my wife told me that my six-year-old son wasn't actually mine. Apparently I need to pay more attention during school pick-up.",
+		       "Here comes a funny one, I was kidnapped by mimes once. They did unspeakable things to me.",
+		       "Joke: Did you hear how the zombie bodybuilder hurt his back? He was dead-lifting. "],
+         "context_set": ""
+        },
+	{"tag": "work",
+         "patterns": ["what are u doing currently", "what graduate degree are u pursuing?", "whats your profession?"],
+         "responses": ["I am a data science student", "I pursue Data Science as my career"],
+         "context_set": ""
+        },
+	{"tag": "search",
+         "patterns": ["Can u search in google this thing for me", "search me about...", "Search me this ...", "search .."],
+         "responses": ["Search successful.", "Search done!"],
+         "context_set": ""
+        },
+	{"tag": "like people",
+         "patterns": ["Do u like people?", "what do u think about humans?", "do u hate living beings"],
+         "responses": ["According to my maker I love humanity", "I like humans.. because i was programmed by one"],
+         "context_set": ""
+        },
+	{"tag": "reply to laugh",
+         "patterns": ["hahaha", "haha", "hehehe"],
+         "responses": ["Funny isnt it :] ", "Why u laughing... ^_^"],
+         "context_set": ""
+        },
+	{"tag": "affirmatives",
+         "patterns": ["nice", "great", "good", "ok", "fine"],
+         "responses": ["good", "great", "hmm", "nice"],
+         "context_set": ""
+        }
+	
+   ]
+}
