@@ -10,8 +10,10 @@ Required python packages:
 6. pickle
 
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/73243338/123086209-c4390a00-d440-11eb-94c2-3957526a8b5f.gif)
 
-https://user-images.githubusercontent.com/73243338/121932955-14d6a600-cd63-11eb-8b79-c0df69c101be.mp4
+
+
 
 
 
